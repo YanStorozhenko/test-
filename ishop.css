@@ -1,0 +1,106 @@
+* {
+    font-family: "Monomakh";
+    margin: 0;
+    padding: 0;
+}
+.logo {
+font-size: 25px;
+background: #fa0000;
+background: linear-gradient(181deg, rgba(250, 0, 0, 1) 20%, rgba(48, 45, 224, 1) 52%, rgba(255, 255, 255, 1) 85%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 50px;
+    border-bottom: 2px solid black;
+}
+input {
+    width: 500px;
+    height: 20px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+.akc {
+    width: 100%;
+    height: 100px;
+    padding: 10px 0px;
+}
+.opisakc {
+    background-image: url(/img/fon.jpg);
+    text-align: center;
+    color: rgb(237, 200, 131);
+   
+}
+.skid {
+    color: rgb(217, 217, 97);
+    font-size: 30px;
+    font-weight: bold;
+}
+h3 {
+    font-weight: 100;
+    padding-top: 10px;
+}
+.katalog {
+    display: flex;
+    justify-content: space-between;
+}
+.kfoto {
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+   
+}
+figcaption {
+    text-align: center;
+    font-size: small;
+}
+.imgkata {
+    border: 2px solid rgb(90, 59, 10);
+}
+.sales {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(165, 42, 42, 0.78);
+
+}
+.afoto {
+    width: 250px;
+    height: 250px;
+    object-fit: scale-down; 
+}
+.cardproduct {
+    text-align: center;
+}
+.zach {
+    font-size: small;
+    color: red;
+    text-decoration: line-through;
+}
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(103, 34, 11, 0.575);
+}
+button:hover {
+    background-color: rgba(246, 223, 211, 0.98);
+    font-weight: bolder;
+    font-size: medium;
+}
+footer {
+    border-top: 2px solid black;
+    text-align: center;
+}
